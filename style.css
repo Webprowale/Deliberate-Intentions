@@ -16,13 +16,7 @@ a {
 .accordion-button:not(.collapsed)::after{
   background-image: url('Asset/minus.png');
 }
-.decaShape{
-  
-  /* border-top-right-radius: 60px;
-  border-bottom-left-radius: 60px;
-  border-bottom-right-radius: 20px;
-  border-top-left-radius: 20px; */
-}
+
 li {
   list-style: none;
 }
