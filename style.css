@@ -17,18 +17,11 @@ a {
   background-image: url('Asset/minus.png');
 }
 .decaShape{
-  width: 400px;
-  height: 360px;
-  border-top-right-radius: 60px;
+  
+  /* border-top-right-radius: 60px;
   border-bottom-left-radius: 60px;
   border-bottom-right-radius: 20px;
-  border-top-left-radius: 20px;
-}
-.secBg{
-  background-image: url('Asset/secbg.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  border-top-left-radius: 20px; */
 }
 li {
   list-style: none;
@@ -97,5 +90,8 @@ textarea:focus {
   }
   textarea {
     width: 100%;
+  }
+  .decaShape{
+    margin-bottom: 12px;
   }
 }
