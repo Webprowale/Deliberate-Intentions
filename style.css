@@ -22,13 +22,40 @@ li {
 .gap {
   gap: 30px;
 }
-.intro {
-  line-height: 1.4em;
-  font-weight: 500;
-  margin-left: 100px;
+.hero-section {
+  background-color: #f8f8f8;
+  padding: 130px;
+  text-align: center;
 }
-.introBtn {
+
+.intro-text {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-weight: 500;
+  width: 60%;
+}
+.get-started-btn {
+  display: flex;
+  width: 170px;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 1em;
   margin-left: 100px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 30px;
+  }
+
+  .intro-text {
+    font-size: 2.2em;
+  }
 }
 .boldText {
   font-size: 3em;
@@ -69,11 +96,14 @@ textarea:focus {
   top: 100px;
 }
 @media (max-width: 430px) {
-  .introBtn {
-    margin-left: 0px;
+  .get-started-btn{
+    width: 130px;
+    padding: 7px;
+    font-size: 1em;
   }
-  .intro {
-    margin-left: 0px;
+  .intro-text{
+    font-size: 1.5em;
+    width: 100%;
   }
   .boldText {
     font-size: 1.8em;
