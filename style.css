@@ -15,7 +15,9 @@ a {
 .accordion-button:not(.collapsed)::after{
   background-image: url('Asset/minus.png');
 }
-
+footer p{
+  color: bisque;
+}
 li {
   list-style: none;
 }
