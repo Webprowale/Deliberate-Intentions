@@ -24,8 +24,7 @@ li {
 }
 .hero-section {
   background-color: #f8f8f8;
-  height: 86vh;
-  padding-top: 120px;
+  padding: 120px;
   text-align: center;
 }
 
@@ -98,7 +97,6 @@ textarea:focus {
 }
 @media (max-width: 430px) {
   .hero-section{
-    height: 70vh;
     padding-top: 90px !important;
   }
   .get-started-btn{
