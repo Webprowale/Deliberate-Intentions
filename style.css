@@ -83,6 +83,7 @@ textarea:focus {
   }
   textarea {
     width: 100%;
+    resize: none;
   }
   .decaShape{
     margin-bottom: 12px;
